@@ -68,7 +68,7 @@ This Task Management project is built with Spring Boot, React, and JWT-based aut
 ### Backend Setup
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/task-management.git
+   git clone https://github.com/samuelkhiba3/task-management.git
    cd task-management/backend
 2. Configure the database in application.properties.
 
