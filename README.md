@@ -64,6 +64,7 @@ This Task Management project is built with Spring Boot, React, and JWT-based aut
 - Node.js
 - npm
 - Maven
+- MySQL
 
 ### Backend Setup
 
