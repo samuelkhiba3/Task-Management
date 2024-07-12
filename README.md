@@ -1,13 +1,11 @@
-Here's the revised version focusing solely on the backend:
-
 # Task-Management
 An application designed to streamline task assignment, tracking, and completion.
 
 ## Overview
 
-This Task Management project is built with Spring Boot and JWT-based authentication to manage tasks and users efficiently. The application supports various roles (Admin, Project Manager, Team Lead, Member) with specific permissions.
+This Task Management project is built with Spring Boot, React, and JWT-based authentication to manage tasks and users efficiently. The application supports various roles (Admin, Project Manager, Team Lead, Member) with specific permissions.
 
-Features
+## Features
 
 - User authentication and authorization with JWT
 - Role-based access control
@@ -23,6 +21,10 @@ Features
 - **Spring Security** for authentication and authorization
 - **JWT** for token-based authentication
 - **JPA** for database interaction
+
+### Frontend
+
+- **React** for building user interfaces
 
 ## Endpoints
 
@@ -59,22 +61,19 @@ Features
 ### Prerequisites
 
 - Java 11+
-- Node.js
-- npm
 - Maven
-- MySQL
+- MySQL (or any other DBMS)
+- Postman
 
 ### Backend Setup
 
 1. Clone the repository:
    git clone https://github.com/samuelkhiba3/task-management.git
    cd task-management/backend
-   
-3. Configure the database in application.properties.
+2. Configure the database in application.properties.
    spring.datasource.url=jdbc:mysql://localhost:3306/your_schema_name
    spring.datasource.username=root spring.datasource.password=your-password
    spring.jpa.hibernate.ddl-auto=update
-   
-5. Build and run the backend:
-   mvn clean install
-   mvn spring-boot:run
+4. Build and run the backend:
+  mvn clean install
+  mvn spring-boot:run
